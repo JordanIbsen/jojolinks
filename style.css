@@ -9,7 +9,7 @@
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(255, 255, 255, 0.1);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
   --switch-bg-color: rgba(240, 201, 61, 1);
@@ -21,7 +21,7 @@
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(78, 0, 134, 0.05);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
   --switch-bg-color: rgba(164, 127, 241, 1);
@@ -83,7 +83,7 @@ body * {
   transform: translateY(-50%);
 
   animation: slide-back 0.2s;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .light #switch button {
